@@ -4,17 +4,10 @@ Created on Sun Feb 12 18:02:49 2023
 
 @author: Hannah
 """
+import random
 
-from abc import ABCMeta, abstractmethod
-import numpy as np
+class Bear():
+    type = "Bear"
 
-class Creature(metaclass=ABCMeta):
-    
-  
-        
-class Bear(Creature):
-
- 
-        
-class Fish(Creature):
-    
+class Fish():
+    type = "Fish"
