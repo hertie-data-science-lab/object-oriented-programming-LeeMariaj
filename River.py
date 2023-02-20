@@ -4,10 +4,15 @@ Created on Sun Feb 12 18:04:03 2023
 
 @author: Hannah
 """
+# Importing the created classes
 from Creatures import Bear
 from Creatures import Fish
 from Creatures import Water
+
+# Importing needed packages
 import random
+
+# Creating the River Class
 class River:
     def __init__(self, n_room, n_bears, n_fish, n_rounds):
         # Establishing base variables
