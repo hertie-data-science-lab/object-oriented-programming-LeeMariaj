@@ -6,8 +6,14 @@ Created on Sun Feb 12 18:02:49 2023
 """
 import random
 
-class Bear():
-    type = "Bear"
+class Bear:
+    label = "Bear"
+    hp = 5
 
-class Fish():
-    type = "Fish"
+class Fish:
+    label = "Fish"
+    hp = 2
+
+class Water:
+  label = "~~~"
+  hp = 0
